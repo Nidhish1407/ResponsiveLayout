@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+    --primary-1:#2E323F;
+    --primary-2:#3B4050;
+    --primary-3:#6F737F;
+    --primary-4:#FFFFFF;
+    --primary-5:#A59678;
+}
+
+*,*::before,*::after
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.intro
+{
+    background-color:var(--primary-1);
+    color:var(--primary-4);
+    text-align: left;
+}
+#title_unq
+{
+    color:var(--primary-5);
+}
+.container
+{
+    /* margin:auto 0; */
+    padding:2em;
+}
+.intro_para
+{
+    margin: 2em 0;
+}
+.intro__btn
+{
+    background-color:var(--primary-5);
+    padding:0.25em 0.75em;
+    border-radius: 5em;
+    display: inline-block;
+}
+.intro__btn_link
+{
+    color:var(--primary-4);
+    text-decoration: none;
+    text-transform: uppercase;
+}
